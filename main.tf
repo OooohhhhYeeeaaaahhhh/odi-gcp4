@@ -1,3 +1,9 @@
+provider "google" {
+  project = "odi-gcp4"
+  region  = "us-central1"
+  zone    = "us-central1-c"
+}
+
 /**
  * Copyright 2022 Google LLC
  *
